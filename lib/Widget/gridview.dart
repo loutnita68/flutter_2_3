@@ -117,10 +117,28 @@ class GridviewWidget extends StatelessWidget {
                   "https://i.pinimg.com/1200x/cb/13/47/cb1347fc2075531465979c2437f4f3e3.jpg",
             ),
             cardGrid(
-              name: "Noodle",
-              price: 3.25,
+              name: "Cake",
+              price: 5.50,
               image:
-                  "https://i.pinimg.com/1200x/50/8f/81/508f813dab1929bf6998931fc0eea18d.jpg",
+                  "https://i.pinimg.com/1200x/cb/13/47/cb1347fc2075531465979c2437f4f3e3.jpg",
+            ),
+            cardGrid(
+              name: "Cake",
+              price: 5.50,
+              image:
+                  "https://i.pinimg.com/1200x/cb/13/47/cb1347fc2075531465979c2437f4f3e3.jpg",
+            ),
+            cardGrid(
+              name: "Cake",
+              price: 5.50,
+              image:
+                  "https://i.pinimg.com/1200x/cb/13/47/cb1347fc2075531465979c2437f4f3e3.jpg",
+            ),
+            cardGrid(
+              name: "Cake",
+              price: 5.50,
+              image:
+                  "https://i.pinimg.com/1200x/cb/13/47/cb1347fc2075531465979c2437f4f3e3.jpg",
             ),
           ],
         ),

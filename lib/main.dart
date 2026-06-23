@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-
-// import 'package:intro_flutter/Widget/chatview_builder.dart';
-import 'package:intro_flutter/Widget/gridview.dart';
-import 'package:intro_flutter/Widget/test_gridview.dart';
-import 'package:intro_flutter/Widget/test_list_view.dart';
+// import 'package:intro_flutter/Widget/burger_gridview.dart';
+import 'package:intro_flutter/Widget/text_field.dart';
 
 void main() {
   runApp(MyApp()); // to call first app to run
@@ -17,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TestGridview(),
+      home: TextFieldWidget(),
       // debugShowCheckedModeBanner: false,
       // home: ListViewBuilder(),
     );
