@@ -6,6 +6,14 @@ class BurgerGridview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: InkWell(
+          onTap: () {
+            Navigator.pop(context);
+          },
+          child: Text("Back"),
+        ),
+      ),
       body: Padding(
         padding: const EdgeInsets.only(top: 100),
         child: Column(

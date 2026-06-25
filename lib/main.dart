@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:intro_flutter/Widget/bottom_nav.dart';
+// import 'package:intro_flutter/Widget/login_textfield.dart';
+// import 'package:intro_flutter/Widget/register_textfield.dart';
+import 'package:intro_flutter/Widget/tabbar.dart';
+// import 'package:intro_flutter/Widget/verification_textfield.dart';
 // import 'package:intro_flutter/Widget/burger_gridview.dart';
-import 'package:intro_flutter/Widget/text_field.dart';
+// import 'package:intro_flutter/Widget/text_field.dart';
 
 void main() {
   runApp(MyApp()); // to call first app to run
@@ -14,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TextFieldWidget(),
+      home: BottomNav(),
       // debugShowCheckedModeBanner: false,
       // home: ListViewBuilder(),
     );

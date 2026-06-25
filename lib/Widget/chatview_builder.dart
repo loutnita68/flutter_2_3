@@ -59,7 +59,7 @@ class ListViewbuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Messager")),
+      // appBar: AppBar(title: Text("Messager")),
       body: Column(
         children: [
           Padding(
