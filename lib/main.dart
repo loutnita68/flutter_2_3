@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intro_flutter/Widget/bottom_nav.dart';
+import 'package:intro_flutter/Widget/stateless_widget.dart';
 // import 'package:intro_flutter/Widget/login_textfield.dart';
 // import 'package:intro_flutter/Widget/register_textfield.dart';
 import 'package:intro_flutter/Widget/tabbar.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BottomNav(),
+      home: Counter(),
       // debugShowCheckedModeBanner: false,
       // home: ListViewBuilder(),
     );

@@ -15,6 +15,7 @@ class _BottomNavState extends State<BottomNav> {
     Center(child: Text("Notification Screen")),
     Center(child: Text("Setting Screen")),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
