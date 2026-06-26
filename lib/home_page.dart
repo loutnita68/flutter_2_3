@@ -8,13 +8,13 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: Icon(Icons.menu),
-        title: Text("Flutter App"),
+        title: Text("Flutter Developer"),
         actions: [Icon(Icons.search), Icon(Icons.notifications)],
         centerTitle: true,
       ),
       body: Center(
         child: Image.network(
-          "https://i.pinimg.com/1200x/b9/b2/df/b9b2dfd5b399b1c63fca13c2e5e4e7f5.jpg ",
+          "https://media-cdn.tripadvisor.com/media/photo-s/05/22/b8/cb/sunrise-angkor-wat-with.jpg",
           width: 400,
           height: 400,
           fit: BoxFit.cover,
