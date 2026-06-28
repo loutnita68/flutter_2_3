@@ -4,6 +4,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:intro_flutter/Project/home_page.dart';
+import 'package:intro_flutter/Project/profile_page.dart';
 
 class Pages extends StatefulWidget {
   const Pages({super.key});
@@ -20,31 +21,12 @@ class _HomepageState extends State<Pages> {
     HomePage(),
     Center(child: Text("Places")),
     Center(child: Text("Favorites")),
-    Center(child: Text("Profile")),
+    ProfilePage(),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: Icon(Icons.menu_rounded, size: 40),
-        title: Text(
-          "Visit Cambodia",
-          style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-        ),
-        actions: [
-          Padding(
-            padding: EdgeInsets.only(right: 20),
-            child: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                "https://i.pinimg.com/736x/11/50/10/1150106db13b0cae280f5165a8632b71.jpg",
-              ),
-            ),
-          ),
-        ],
-      ),
-
       body: pages[selectIndex],
 
       bottomNavigationBar: BottomNavigationBar(
