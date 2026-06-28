@@ -3,6 +3,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:intro_flutter/Project/favorite_page.dart';
 import 'package:intro_flutter/Project/home_page.dart';
 import 'package:intro_flutter/Project/profile_page.dart';
 
@@ -20,7 +21,7 @@ class _HomepageState extends State<Pages> {
   List<Widget> pages = [
     HomePage(),
     Center(child: Text("Places")),
-    Center(child: Text("Favorites")),
+    FavoritePage(),
     ProfilePage(),
   ];
 
